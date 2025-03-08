@@ -19,6 +19,9 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project.Highlanders.Website", "src\Project\Highlanders\code\Project.Highlanders.Website.csproj", "{EF8D37C1-6257-47B1-BF96-EE0089B12276}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GenarateTemplates", "GenarateTemplates", "{5D7B624C-5A50-400D-A22C-DAA4D1A436ED}"
+	ProjectSection(SolutionItems) = preProject
+		src\Feature\GenerateTemplates\Highlanders.Feature.GenerateTemplates.module.json = src\Feature\GenerateTemplates\Highlanders.Feature.GenerateTemplates.module.json
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Highlanders.Feature.GenerateTemplates", "src\Feature\GenerateTemplates\code\Highlanders.Feature.GenerateTemplates.csproj", "{38375CC7-0D9D-4A7B-B94A-4677747BBA63}"
 EndProject
