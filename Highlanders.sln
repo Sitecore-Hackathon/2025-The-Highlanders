@@ -18,6 +18,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Website", "Website", "{E959
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project.Highlanders.Website", "src\Project\Highlanders\code\Project.Highlanders.Website.csproj", "{EF8D37C1-6257-47B1-BF96-EE0089B12276}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GenarateTemplates", "GenarateTemplates", "{5D7B624C-5A50-400D-A22C-DAA4D1A436ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Highlanders.Feature.GenerateTemplates", "src\Feature\GenerateTemplates\code\Highlanders.Feature.GenerateTemplates.csproj", "{38375CC7-0D9D-4A7B-B94A-4677747BBA63}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -28,6 +32,10 @@ Global
 		{EF8D37C1-6257-47B1-BF96-EE0089B12276}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EF8D37C1-6257-47B1-BF96-EE0089B12276}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EF8D37C1-6257-47B1-BF96-EE0089B12276}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38375CC7-0D9D-4A7B-B94A-4677747BBA63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38375CC7-0D9D-4A7B-B94A-4677747BBA63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38375CC7-0D9D-4A7B-B94A-4677747BBA63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38375CC7-0D9D-4A7B-B94A-4677747BBA63}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -35,6 +43,8 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{E9599ECD-0FA0-4035-B1B8-FFE60CCC56A1} = {7DE10F12-B2A4-4B79-983D-EE1C8ABC844B}
 		{EF8D37C1-6257-47B1-BF96-EE0089B12276} = {E9599ECD-0FA0-4035-B1B8-FFE60CCC56A1}
+		{5D7B624C-5A50-400D-A22C-DAA4D1A436ED} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{38375CC7-0D9D-4A7B-B94A-4677747BBA63} = {5D7B624C-5A50-400D-A22C-DAA4D1A436ED}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8CCE3B41-37B3-4960-AE61-5C0143129D41}
