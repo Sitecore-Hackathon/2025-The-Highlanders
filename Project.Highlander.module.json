@@ -1,0 +1,15 @@
+{
+    "namespace": "Project.Highlanders.Website",
+    "references": [
+
+    ],
+    "items": {
+        "includes": [
+            {
+                "name": "Templates",
+                "path": "/sitecore/templates/Feature/IACarousel",
+                "database": "master"
+            }
+        ]
+    }
+}
