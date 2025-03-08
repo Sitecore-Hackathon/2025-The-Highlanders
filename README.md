@@ -193,6 +193,8 @@ This module requires:
 
 2. Click on **Generate with IA** to open the modal.
 
+   ![Ribbon Btn](docs/images/Ribbon_btn.png?raw=true "Ribbon Btn")
+
 3. Enter a structured description of the template to be created, for example:
 
    ```plaintext
@@ -200,6 +202,9 @@ This module requires:
    Create a Sitecore template named 'Product' with sections 'General' and 'Specifications'. Include fields 'Name', 'Price', and 'Description' with appropriate Sitecore field types.
 
    ```
+
+   ![Prompt msg](docs/images/Prompt_msg.png?raw=true "Prompt msg")
+
 
 4. The AI will generate the corresponding YML files following Helix conventions.
 
@@ -209,26 +214,24 @@ This module requires:
 
 7. Use the newly created templates to build content structures efficiently.
 
+
+   ![Output template](docs/images/Output_template.png?raw=true "Output_template")
+
+
 ## Example Output
 
 Generated YML files will follow this structure:
 
 ```yml
-ID: "5ed51867-63a9-4152-b325-5c229fd03c00"
-
-Parent: "e5f585ba-bea8-4b82-b8ec-a55a9a34fe9e"
-
-Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
-
-Path: /sitecore/templates/Feature/Highlanders/Test
-
-SharedFields:
-  - ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
-
-    Hint: __Base template
-
-    Value: "{1930BBEB-7805-471A-A3BE-4858AC7CF696}"
+ID: 0c7b310c-f3ac-4698-ae51-5ee7f9207b78
+Parent: bed62742-5fd3-4a7d-bf46-673f86176ac4
+Template: 1ca8c322-9f7c-4692-a4d7-91aaa82d775a
+Path: /sitecore/templates/Feature/CreateArticle/Content/Author
 ```
+
+![Output1](docs/images/Output-structure.jpeg?raw=true "Output1")
+
+![Output2](docs/images/Output_structure2.png?raw=true "Output2")
 
 ## 🛠 Contributions
 
