@@ -13,7 +13,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Website", "Website", "{BA1D
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Website", "Website", "{E9599ECD-0FA0-4035-B1B8-FFE60CCC56A1}"
 	ProjectSection(SolutionItems) = preProject
-		Project.Highlander.module.json = Project.Highlander.module.json
+		src\Project\Highlanders\Project.Highlander.module.json = src\Project\Highlanders\Project.Highlander.module.json
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project.Highlanders.Website", "src\Project\Highlanders\code\Project.Highlanders.Website.csproj", "{EF8D37C1-6257-47B1-BF96-EE0089B12276}"
