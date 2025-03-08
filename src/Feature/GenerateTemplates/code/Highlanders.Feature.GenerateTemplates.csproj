@@ -44,6 +44,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Controllers\CreateTemplatesController.cs" />
+    <Compile Include="Helpers\SerializationHelper.cs" />
     <Compile Include="Models\YmlFile.cs" />
     <Compile Include="Models\YmlFileContainer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
