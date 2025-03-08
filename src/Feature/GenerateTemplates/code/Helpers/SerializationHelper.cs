@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Web;
+using Sitecore.Configuration;
 
 namespace Highlanders.Feature.GenerateTemplates.Helpers
 {
@@ -12,7 +13,7 @@ namespace Highlanders.Feature.GenerateTemplates.Helpers
         {
             ProcessStartInfo psi = new ProcessStartInfo
             {
-                WorkingDirectory = "C:\\Projects\\2025-The-Highlanders",
+                WorkingDirectory = Settings.GetSetting("SitecoreSolutionBasePath"), //"C:\\Projects\\2025-The-Highlanders",
                 FileName = "dotnet",
                 Arguments = "sitecore ser push",
                 RedirectStandardOutput = true,
