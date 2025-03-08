@@ -80,6 +80,10 @@
       <Project>{52c051e3-f95c-41cf-b859-3f175dbaa6d4}</Project>
       <Name>Highlanders.Foundation.DependencyInjection</Name>
     </ProjectReference>
+    <ProjectReference Include="..\..\..\Foundation\Services\code\Highlanders.Foundation.Services.csproj">
+      <Project>{4ade3c1c-37c2-4b8b-8ac1-cf8582fc6722}</Project>
+      <Name>Highlanders.Foundation.Services</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <None Include="Properties\PublishProfiles\Local.pubxml" />
