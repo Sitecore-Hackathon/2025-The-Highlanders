@@ -25,6 +25,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GenarateTemplates", "Genara
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Highlanders.Feature.GenerateTemplates", "src\Feature\GenerateTemplates\code\Highlanders.Feature.GenerateTemplates.csproj", "{38375CC7-0D9D-4A7B-B94A-4677747BBA63}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DependencyInjection", "DependencyInjection", "{0BB8C091-2B22-4B6C-9B6F-341C85FBC708}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Highlanders.Foundation.DependencyInjection", "src\Foundation\DependencyInjection\code\Highlanders.Foundation.DependencyInjection.csproj", "{52C051E3-F95C-41CF-B859-3F175DBAA6D4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,10 @@ Global
 		{38375CC7-0D9D-4A7B-B94A-4677747BBA63}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{38375CC7-0D9D-4A7B-B94A-4677747BBA63}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{38375CC7-0D9D-4A7B-B94A-4677747BBA63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52C051E3-F95C-41CF-B859-3F175DBAA6D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52C051E3-F95C-41CF-B859-3F175DBAA6D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52C051E3-F95C-41CF-B859-3F175DBAA6D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52C051E3-F95C-41CF-B859-3F175DBAA6D4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -48,6 +56,8 @@ Global
 		{EF8D37C1-6257-47B1-BF96-EE0089B12276} = {E9599ECD-0FA0-4035-B1B8-FFE60CCC56A1}
 		{5D7B624C-5A50-400D-A22C-DAA4D1A436ED} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{38375CC7-0D9D-4A7B-B94A-4677747BBA63} = {5D7B624C-5A50-400D-A22C-DAA4D1A436ED}
+		{0BB8C091-2B22-4B6C-9B6F-341C85FBC708} = {C057E626-7703-4F14-BFB3-47C3E4C6D536}
+		{52C051E3-F95C-41CF-B859-3F175DBAA6D4} = {0BB8C091-2B22-4B6C-9B6F-341C85FBC708}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8CCE3B41-37B3-4960-AE61-5C0143129D41}
