@@ -64,7 +64,7 @@
   <ItemGroup>
     <PackageReference Include="Newtonsoft.Json">
       <Version>13.0.1</Version>
-        <IncludeAssets>compile</IncludeAssets>
+      <IncludeAssets>compile</IncludeAssets>
     </PackageReference>
     <PackageReference Include="Sitecore.Kernel">
       <Version>10.4.0</Version>
@@ -74,7 +74,12 @@
   <ItemGroup>
     <Content Include="App_Config\Include\Foundation\Foundation.Services.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\..\DependencyInjection\code\Highlanders.Foundation.DependencyInjection.csproj">
+      <Project>{52c051e3-f95c-41cf-b859-3f175dbaa6d4}</Project>
+      <Name>Highlanders.Foundation.DependencyInjection</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
