@@ -9,6 +9,21 @@
                 "name": "Layout",
                 "path": "/sitecore/layout/Layouts/Project/Highlanders",
                 "database": "master"
+            },
+            {
+                "name": "RibbonStrips",
+                "path": "/sitecore/content/Applications/Content Editor/Ribbons/Strips/Template Generator",
+                "database": "core"
+            },
+            {
+                "name": "Ribbon",
+                "path": "/sitecore/content/Applications/Content Editor/Ribbons/Ribbons/Default/Template Generation",
+                "database": "core"
+            },
+            {
+                "name": "RibbonChunck",
+                "path": "/sitecore/content/Applications/Content Editor/Ribbons/Chunks/TemplateGenerator",
+                "database": "core"
             }
         ]
     }
