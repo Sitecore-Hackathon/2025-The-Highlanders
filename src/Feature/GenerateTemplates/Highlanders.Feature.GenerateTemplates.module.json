@@ -1,0 +1,15 @@
+{
+    "namespace": "Highlanders.Feature.GenerateTemplates",
+    "references": [
+
+    ],
+    "items": {
+        "includes": [
+            {
+                "name": "Templates",
+                "path": "/sitecore/templates",
+                "database": "master"
+            }
+        ]
+    }
+}
