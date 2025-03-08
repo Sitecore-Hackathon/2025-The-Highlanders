@@ -5,7 +5,11 @@
     ],
     "items": {
         "includes": [
-            
+            {
+                "name": "Templates",
+                "path": "/sitecore/templates/Feature/Highlanders",
+                "database": "master"
+            }
         ]
     }
 }

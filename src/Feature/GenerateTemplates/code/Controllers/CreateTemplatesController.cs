@@ -18,7 +18,7 @@ namespace Highlanders.Feature.GenerateTemplates.Controllers
         }
         public ActionResult CreateTemplates()
         {            
-            _ICreateTemplatesRepository.CreateYmlFiles("");
+            _ICreateTemplatesRepository.CreateYmlFiles("Create templates relating to create article items");
             return View();
         }
     }
