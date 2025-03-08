@@ -64,6 +64,12 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Web" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Foundation\DependencyInjection\code\Highlanders.Foundation.DependencyInjection.csproj">
+      <Project>{52c051e3-f95c-41cf-b859-3f175dbaa6d4}</Project>
+      <Name>Highlanders.Foundation.DependencyInjection</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
