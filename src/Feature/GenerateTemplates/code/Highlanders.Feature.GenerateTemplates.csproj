@@ -43,6 +43,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Commands\GenerateCommand.cs" />
     <Compile Include="Controllers\CreateTemplatesController.cs" />
     <Compile Include="Models\YmlFile.cs" />
     <Compile Include="Models\YmlFileContainer.cs" />
