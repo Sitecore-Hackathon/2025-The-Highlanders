@@ -6,12 +6,12 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{E7118FD9-44D2-4721-BDF3-574D716FE86A}</ProjectGuid>
+    <ProjectGuid>{4ADE3C1C-37C2-4B8B-8AC1-CF8582FC6722}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Highlanders.Website</RootNamespace>
-    <AssemblyName>Highlanders.Website</AssemblyName>
+    <RootNamespace>Highlanders.Foundation.Services</RootNamespace>
+    <AssemblyName>Highlanders.Foundation.Services</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <MvcBuildViews>false</MvcBuildViews>
     <UseIISExpress>true</UseIISExpress>
@@ -49,34 +49,24 @@
     <None Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Properties\PublishProfiles\Local.pubxml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Web" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="RichardSzalay.Helix.Publishing.WebRoot">
-      <Version>1.5.6</Version>
-    </PackageReference>
     <PackageReference Include="Sitecore.Kernel">
       <Version>10.4.0</Version>
       <IncludeAssets>compile</IncludeAssets>
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\Feature\GenerateTemplates\code\Highlanders.Feature.GenerateTemplates.csproj">
-      <Project>{38375cc7-0d9d-4a7b-b94a-4677747bba63}</Project>
-      <Name>Highlanders.Feature.GenerateTemplates</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\Foundation\DependencyInjection\code\Highlanders.Foundation.DependencyInjection.csproj">
-      <Project>{52c051e3-f95c-41cf-b859-3f175dbaa6d4}</Project>
-      <Name>Highlanders.Foundation.DependencyInjection</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\Foundation\Services\code\Highlanders.Foundation.Services.csproj">
-      <Project>{4ade3c1c-37c2-4b8b-8ac1-cf8582fc6722}</Project>
-      <Name>Highlanders.Foundation.Services</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\Project\Highlanders\code\Project.Highlanders.Website.csproj">
-      <Project>{ef8d37c1-6257-47b1-bf96-ee0089b12276}</Project>
-      <Name>Project.Highlanders.Website</Name>
-    </ProjectReference>
+    <Content Include="App_Config\Include\Foundation\Foundation.Services.config" />
+    <None Include="Properties\PublishProfiles\Local.pubxml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ServiceLayer\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
@@ -94,9 +84,9 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>57278</DevelopmentServerPort>
+          <DevelopmentServerPort>56118</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:53063/</IISUrl>
+          <IISUrl>http://localhost:56118/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>
