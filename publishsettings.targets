@@ -1,0 +1,10 @@
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <publishUrl>https://highlanders.local/</publishUrl>
+        <ExcludeFilesFromDeployment>
+			packages.config;
+			bin\Sitecore.*.dll
+		</ExcludeFilesFromDeployment>
+    </PropertyGroup>
+    <Import Project="./publishsettings.targets.user" Condition="exists('./publishsettings.targets.user')" /> 
+</Project>

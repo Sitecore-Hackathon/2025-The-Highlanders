@@ -29,6 +29,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DependencyInjection", "Depe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Highlanders.Foundation.DependencyInjection", "src\Foundation\DependencyInjection\code\Highlanders.Foundation.DependencyInjection.csproj", "{52C051E3-F95C-41CF-B859-3F175DBAA6D4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Highlanders.Website", "src\Website\Highlanders.Website\Highlanders.Website.csproj", "{EAB26048-8AF0-40F3-A18A-EC52A55735AE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Config", "Config", "{05CE41EB-EF3C-43E3-BCC2-90D0D20251B5}"
+	ProjectSection(SolutionItems) = preProject
+		publishsettings.targets = publishsettings.targets
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -47,6 +54,10 @@ Global
 		{52C051E3-F95C-41CF-B859-3F175DBAA6D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{52C051E3-F95C-41CF-B859-3F175DBAA6D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{52C051E3-F95C-41CF-B859-3F175DBAA6D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAB26048-8AF0-40F3-A18A-EC52A55735AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAB26048-8AF0-40F3-A18A-EC52A55735AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAB26048-8AF0-40F3-A18A-EC52A55735AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAB26048-8AF0-40F3-A18A-EC52A55735AE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -58,6 +69,7 @@ Global
 		{38375CC7-0D9D-4A7B-B94A-4677747BBA63} = {5D7B624C-5A50-400D-A22C-DAA4D1A436ED}
 		{0BB8C091-2B22-4B6C-9B6F-341C85FBC708} = {C057E626-7703-4F14-BFB3-47C3E4C6D536}
 		{52C051E3-F95C-41CF-B859-3F175DBAA6D4} = {0BB8C091-2B22-4B6C-9B6F-341C85FBC708}
+		{EAB26048-8AF0-40F3-A18A-EC52A55735AE} = {BA1D500D-C012-482C-9536-1996D0F62FFD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8CCE3B41-37B3-4960-AE61-5C0143129D41}
