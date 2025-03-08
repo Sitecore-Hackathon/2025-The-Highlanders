@@ -6,8 +6,8 @@
     "items": {
         "includes": [
             {
-                "name": "Templates",
-                "path": "/sitecore/templates/Feature/IACarousel",
+                "name": "Layout",
+                "path": "/sitecore/layout/Layouts/Project/Highlanders",
                 "database": "master"
             }
         ]
