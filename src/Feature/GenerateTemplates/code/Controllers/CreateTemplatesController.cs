@@ -12,12 +12,13 @@ namespace Highlanders.Feature.GenerateTemplates.Controllers
     {
         private readonly ICreateTemplatesRepository _ICreateTemplatesRepository;
 
-        CreateTemplatesController(ICreateTemplatesRepository iCreateTemplatesRepository)
+        public CreateTemplatesController(ICreateTemplatesRepository iCreateTemplatesRepository)
         {
             _ICreateTemplatesRepository = iCreateTemplatesRepository;
         }
         public ActionResult CreateTemplates()
-        {
+        {            
+            _ICreateTemplatesRepository.CreateYmlFiles("");
             return View();
         }
     }
