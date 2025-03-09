@@ -41,7 +41,7 @@ The solution is integrated within Sitecore's ribbon as an option called **Templa
 
 ## Video Link
 
-[Provide a link to your demo video]
+[\[Provide a link to your demo video\]](https://youtu.be/iyEYtlXEp_k)
 
 ## Pre-requisites and Dependencies
 
@@ -185,7 +185,14 @@ This module requires:
 
     ```
 
-10. Publish all website
+9. Publish all website
+
+10. In the file Foundation.Services.config set APIKey and the URL https://api.openai.com/v1/chat/completions for OpenAi
+
+<settings>
+    <setting name="ChatGPTUrl" value="" />
+    <setting name="ChatGPTApiKey" value="" />
+</settings>
 
 ## Usage Instructions
 
