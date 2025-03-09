@@ -25,15 +25,15 @@ namespace Highlanders.Feature.GenerateTemplates.Commands
         {
             if(!args.IsPostBack)
             {
-                SheerResponse.Input("Describe the template you want to create. e.g: The data I want to register in this template is related to Blogs.", "Pront", string.Empty);
+                SheerResponse.Input("Describe the template you want to create. e.g: The data I want to register in this template is related to Blogs.", "Prompt", string.Empty);
                 args.WaitForPostBack();
             }
             else
             {
                 if (args.HasResult)
                 {
-                    string prontInput = args.Result;
-                    _CreateTemplatesRepository.CreateYmlFiles(prontInput);
+                    string promptInput = args.Result;
+                    _CreateTemplatesRepository.CreateYmlFiles(promptInput);
                 }
             }
         }
